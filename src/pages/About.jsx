@@ -16,7 +16,6 @@ import logoImg from "../assets/Images/Ele_logo.png";
 import HemantSir from "../assets/Images/HemantSir.png";
 import MuskanMam from "../assets/Images/MuskanMam.png";
 import AnkitSir from "../assets/Images/AnkitSir.png";
-import Arpan from "../assets/Images/Arpan.png";
 import DhirajSir from "../assets/Images/DhirajSir.png";
 import AshishSir from "../assets/Images/AshishSir1.png";
 
@@ -61,14 +60,6 @@ const Team = () => {
       bio: "Has never met a feature he wouldn't promise a client to get a signature.",
       expertise: "Overpromising Features",
       linkedin: "https://www.linkedin.com/in/ankit-kharatmal-359815140/"
-    },
-    {
-      name: "Arpan Chavan",
-      role: "Project Manager",
-      img: Arpan,
-      bio: "Organizes mandatory fun events that everyone secretly tries to get out of.",
-      expertise: "Mandatory Fun",
-      linkedin: "https://www.linkedin.com/in/arpan-chavan/"
     },
   ];
 
