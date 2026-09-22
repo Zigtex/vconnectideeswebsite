@@ -27,7 +27,7 @@ const Team = () => {
       img: HemantSir,
       bio: "Spends 90% of his day looking at dashboards and the other 10% asking for updates.",
       expertise: "Big Picture Stuff",
-      linkedin: "https://www.linkedin.com/in/hemantghale/"
+      linkedin: "https://www.linkedin.com/in/hemantghale/",
     },
     {
       name: "Dhiraj Umate",
@@ -35,7 +35,7 @@ const Team = () => {
       img: DhirajSir,
       bio: "Will absolutely reject your proposal if the spreadsheet formatting is slightly off.",
       expertise: "Spreadsheet Sorcery",
-      linkedin: "https://www.linkedin.com/in/dhiraj-umate-3819b9ab/"
+      linkedin: "https://www.linkedin.com/in/dhiraj-umate-3819b9ab/",
     },
     {
       name: "Ashish Yadav",
@@ -43,15 +43,15 @@ const Team = () => {
       img: AshishSir,
       bio: "Gets paid to nod enthusiastically while clients complain about things we can't fix.",
       expertise: "Damage Control",
-      linkedin: "https://www.linkedin.com/in/ashish-yadav-7b9701103/"
+      linkedin: "https://www.linkedin.com/in/ashish-yadav-7b9701103/",
     },
     {
       name: "Muskan Nigam",
-      role: "Growth Marketing Manager",
+      role: "Growth Marketing Manager and HR Manager",
       img: MuskanMam,
       bio: "Basically a professional babysitter for salespeople who refuse to log their calls.",
       expertise: "Herding Cats",
-      linkedin: "https://www.linkedin.com/in/muskan-nigam-717aaa1b3/"
+      linkedin: "https://www.linkedin.com/in/muskan-nigam-717aaa1b3/",
     },
     {
       name: "Ankit Kharatmal",
@@ -59,7 +59,7 @@ const Team = () => {
       img: AnkitSir,
       bio: "Has never met a feature he wouldn't promise a client to get a signature.",
       expertise: "Overpromising Features",
-      linkedin: "https://www.linkedin.com/in/ankit-kharatmal-359815140/"
+      linkedin: "https://www.linkedin.com/in/ankit-kharatmal-359815140/",
     },
   ];
 
@@ -81,10 +81,11 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 md:gap-y-16">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-12 md:gap-y-16">
           {members.map((m, i) => (
             <motion.div
               key={i}
+              className="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
